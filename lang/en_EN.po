@@ -1,0 +1,501 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BWL Advanced FAQ Manager\n"
+"POT-Creation-Date: 2019-09-06 16:56+0600\n"
+"PO-Revision-Date: 2019-09-06 16:57+0600\n"
+"Last-Translator: \n"
+"Language-Team: Bluewinlab <hkhan.cse@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: _;__;_e;_n;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+"X-Poedit-SearchPath-2: .\n"
+
+#: ../bwl-advanced-faq-manager-lite.php:54
+msgid "Documentation"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:55
+msgid "Get Pro Version"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:203
+#: ../bwl-advanced-faq-manager-lite.php:209
+msgid "All FAQs"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:204
+#: ../includes/baf_theme_generator.php:473
+#: ../widget/bwl_advanced_faq_manager_widget.php:37
+#: ../widget/bwl_advanced_faq_manager_widget.php:53
+msgid "FAQ"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:205
+#: ../bwl-advanced-faq-manager-lite.php:206
+msgid "Add New FAQ"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:207
+msgid "Edit FAQ"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:208
+msgid "New FAQ"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:210
+msgid "View FAQ"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:211
+msgid "Search FAQ"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:212
+msgid "No FAQ found"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:213
+msgid "No FAQ found in Trash"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:215
+msgid "Advanced FAQ Lite"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:263
+#: ../includes/admin/bwl_advanced_faq_manager_custom_column.php:13
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:102
+msgid "FAQ Category"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:264
+msgid "Category"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:265
+msgid "Edit Category"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:266
+msgid "Update category"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:267
+msgid "Add Category"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:268
+msgid "Add New category"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:269
+msgid "All categories"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:270
+msgid "Search categories"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:271
+msgid "Popular categories"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:272
+msgid "Separate categories with commas"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:273
+msgid "Add or remove category"
+msgstr ""
+
+#: ../bwl-advanced-faq-manager-lite.php:274
+msgid "Choose from most used categories"
+msgstr ""
+
+#: ../includes/admin/bwl_advanced_faq_manager_custom_column.php:11
+msgid "FAQ Title"
+msgstr ""
+
+#: ../includes/admin/bwl_advanced_faq_manager_custom_column.php:15
+msgid "Author"
+msgstr ""
+
+#: ../includes/admin/bwl_advanced_faq_manager_custom_column.php:17
+msgid "Votes"
+msgstr ""
+
+#: ../includes/admin/bwl_advanced_faq_manager_custom_column.php:19
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:133
+msgid "Date"
+msgstr ""
+
+#: ../includes/admin/bwl_advanced_faq_manager_custom_column.php:51
+msgid "Uncategorized"
+msgstr ""
+
+#: ../includes/admin/bwl_advanced_faq_manager_custom_column.php:63
+#: ../shortcode/bwl_advanced_faq_manager_shortcode.php:432
+#: ../shortcode/bwl_advanced_faq_manager_shortcode.php:689
+msgid "Anonymous"
+msgstr ""
+
+#: ../includes/baf_excerpt_settings.php:22
+msgid "Read More"
+msgstr ""
+
+#: ../includes/baf_theme_generator.php:471
+msgid "Nothing Found !"
+msgstr ""
+
+#: ../includes/baf_theme_generator.php:472
+msgid "FAQs"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:11
+msgid "Select FAQ Category!"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:12
+msgid " Incorrect Captcha Value!"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:13
+msgid "Total"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:14
+msgid "Page !"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:15
+msgid "Pages !"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:16
+msgid "Please Wait ....."
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:17
+msgid "Question successfully added for review!"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:18
+msgid "Unable to add faq. Please try again!"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:20
+msgid "Nothing Found!"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:21
+msgid "Found"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:22
+msgid "FAQ !"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:23
+msgid "FAQs !"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:90
+msgid "You have already liked it!"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:90
+#: ../includes/bwl_advanced_faq_manager_rating.php:95
+msgid "I like this faq"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:103
+msgid "people found this faq useful."
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:107
+msgid "Be the first person to like this faq."
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:151
+msgid " Thank For Your Rating!"
+msgstr ""
+
+#: ../includes/bwl_advanced_faq_manager_rating.php:159
+msgid " You have already give rating!"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:15
+msgid "BWL Advanced FAQ Manager Settings"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:19
+msgid "Settings saved."
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:28
+msgid "Save Settings"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:47
+msgid "Display Settings: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:48
+msgid "FAQ Theme: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:49
+msgid "Display Search Box: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:50
+msgid "Display Meta Info: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:51
+msgid "Display Like Button: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:52
+msgid "Allow Votes Only For Logged Users: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:55
+msgid "Font Settings"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:56
+msgid "FAQ Label Font Size: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:57
+msgid "Content Font Size: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:58
+msgid "Font Awesome: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:59
+msgid "Label Arrow: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:62
+msgid "Custom Theme Settings"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:63
+msgid "Enable Custom Theme: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:64
+msgid "Label Gradient First Color: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:65
+msgid "Label Gradient Second Color: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:66
+msgid "Label Text Color: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:69
+msgid "Reading Settings"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:70
+msgid "Collapsible Accordion: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:71
+msgid "Excerpt Status: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:72
+msgid "Excerpt Length: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:75
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:76
+msgid "Custom Slug: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:79
+msgid "Custom CSS: "
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:110
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:158
+msgid "Use Theme Font Size"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:240
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:476
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:129
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:141
+msgid "Select"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:477
+msgid "Show All FAQ Answer Closed"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:478
+msgid "Show All FAQ Answer Opened"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:515
+msgid "Inactive"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:516
+msgid "Active"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:618
+msgid "Display Search Box"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:619
+msgid "Hide Search Box"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:656
+msgid "Show"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:657
+msgid "Hide"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:693
+msgid "Display Like Button"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:694
+msgid "Hide Like Button"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:731
+msgid "No"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:732
+msgid "Yes"
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:745
+msgid "BWL Advanced FAQ Manager Settings."
+msgstr ""
+
+#: ../includes/settings/bwl_advanced_faq_manager_settings.php:745
+msgid "FAQ Settings"
+msgstr ""
+
+#: ../shortcode/bwl_advanced_faq_manager_shortcode.php:50
+#: ../shortcode/bwl_advanced_faq_manager_shortcode.php:102
+msgid "Search..."
+msgstr ""
+
+#: ../shortcode/bwl_advanced_faq_manager_shortcode.php:54
+#: ../shortcode/bwl_advanced_faq_manager_shortcode.php:106
+msgid "Popular searches:"
+msgstr ""
+
+#: ../shortcode/bwl_advanced_faq_manager_shortcode.php:701
+msgid "Edit"
+msgstr ""
+
+#: ../shortcode/bwl_advanced_faq_manager_shortcode.php:723
+msgid "Sorry, No FAQ Available!"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:45
+msgid "BWL Advanced FAQ Manager Shortcode Editor"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:90
+msgid "FAQ Type"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:122
+msgid "Number of FAQs"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:123
+msgid "e.g: Any number like 1,2,3 "
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:127
+msgid "Order By"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:130
+msgid "ID"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:131
+#: ../widget/bwl_advanced_faq_categories_widget.php:45
+msgid "Title"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:132
+msgid "Custom Sorting"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:134
+msgid "Random Order"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:139
+msgid "Order Type"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:142
+msgid "Ascending"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:143
+msgid "Descending"
+msgstr ""
+
+#: ../tinymce/bwl_advanced_faq_manager_tiny_mce_config.php:149
+msgid "Show Search Box"
+msgstr ""
+
+#: ../widget/bwl_advanced_faq_categories_widget.php:24
+msgid "BWL Advanced FAQ Categories"
+msgstr ""
+
+#: ../widget/bwl_advanced_faq_categories_widget.php:25
+msgid "Display FAQ Categories"
+msgstr ""
+
+#: ../widget/bwl_advanced_faq_categories_widget.php:34
+msgid "Categories"
+msgstr ""
+
+#: ../widget/bwl_advanced_faq_manager_widget.php:25
+msgid "BWL Advanced FAQ Manager Widget"
+msgstr ""
+
+#: ../widget/bwl_advanced_faq_manager_widget.php:28
+msgid "Display FAQ Lists In Main sidebar or footer sidebar"
+msgstr ""
+
+#: ../widget/bwl_advanced_faq_manager_widget.php:62
+msgid "FAQ Shortcode"
+msgstr ""

@@ -1,0 +1,93 @@
+/*----- Flat ----*/
+
+.baf_layout_flat {
+  clear: both;
+}
+
+.baf_layout_flat .bwl-faq-container {
+  padding: 4px;
+  margin-bottom: 3px !important;
+}
+
+.baf_layout_flat .bwl-faq-container label {
+  box-shadow: none;
+  padding: 12px 12px;
+}
+
+.baf_layout_flat label:after,
+.baf_layout_flat label:hover:after,
+.baf_layout_flat input:checked + label:hover:after {
+  margin-top: 16px;
+}
+
+/*----- Semi Rounded ----*/
+
+.baf_layout_semi_round {
+  clear: both;
+}
+
+.baf_layout_semi_round .bwl-faq-container {
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: inherit;
+}
+
+.baf_layout_semi_round .bwl-faq-container label {
+  box-shadow: none;
+}
+
+.baf_layout_semi_round .bwl-faq-container .ac-medium {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 0px;
+}
+
+.baf_layout_semi_round .ac-container input:checked ~ article.ac-medium {
+  padding: 24px;
+  margin-bottom: 12px;
+}
+
+.baf_layout_semi_round label:after,
+.baf_layout_semi_round label:hover:after,
+.baf_layout_semi_round input:checked + label:hover:after {
+  top: 10px;
+  right: 12px;
+}
+
+/*----- Rounded ----*/
+
+.baf_layout_round {
+  clear: both;
+}
+
+.baf_layout_round .bwl-faq-container {
+  padding: 3px 10px;
+  border-radius: 18px;
+  background: inherit;
+}
+
+.baf_layout_round .bwl-faq-container label {
+  box-shadow: none;
+}
+
+.baf_layout_round .bwl-faq-container .ac-medium {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+
+.baf_layout_round .ac-container:first-child input:checked ~ article.ac-medium {
+  padding: 24px;
+  margin-bottom: 12px;
+}
+
+.ac-medium .ac-container {
+  margin-bottom: 0px;
+}
+
+.baf_layout_round label:after,
+.baf_layout_round label:hover:after,
+.baf_layout_round input:checked + label:hover:after {
+  top: 10px;
+  right: 12px;
+}

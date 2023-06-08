@@ -1,0 +1,39 @@
+/*-----  BAF WIDGET ----*/
+
+.baf-widget {
+  clear: both;
+}
+
+.baf-widget ul {
+  clear: both;
+}
+
+.baf-widget ul li {
+  line-height: 32px;
+}
+
+.baf-widget ul.children li {
+  padding-left: 12px;
+}
+
+/*----- New Code ----*/
+
+.baf-hide-article {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  -webkit-transition: visibility 0s linear 300ms, opacity 0ms !important;
+  transition: visibility 0s linear 300ms, opacity 0ms !important;
+  height: 0 !important;
+}
+
+.baf-show-article {
+  visibility: visible !important;
+  opacity: 1 !important;
+  -webkit-transition: visibility 0s linear 0s, opacity 800ms !important;
+  transition: visibility 0s linear 0s, opacity 800ms !important;
+  height: auto !important;
+}
+
+.baf-article-padding {
+  padding: 12px !important;
+}

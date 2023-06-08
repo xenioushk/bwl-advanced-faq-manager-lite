@@ -1,0 +1,87 @@
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .ac-container {
+    font-size: 12px;
+  }
+
+  .ac-container label {
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs li a {
+    font-size: 13px;
+  }
+
+  .bwl-faq-form-container h2 {
+    font-size: 13px;
+  }
+
+  /*-----TAB ----*/
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs li {
+    clear: both;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs li.active a {
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs-ver,
+  .bwl-faq-content-wrapper-ver {
+    width: 100%;
+    clear: both;
+  }
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs-ver li.active a {
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  /*----- Flat Layout ----*/
+
+  .baf_layout_flat .bwl-faq-container label {
+    line-height: 24px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+  .ac-container {
+    font-size: 13px;
+  }
+
+  .ac-container label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs li a {
+    font-size: 14px;
+  }
+
+  .bwl-faq-form-container h2 {
+    font-size: 14px;
+  }
+
+  /*----- TAB ----*/
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs li {
+    clear: both;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs li.active a {
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs-ver,
+  .bwl-faq-content-wrapper-ver {
+    width: 100%;
+    clear: both;
+  }
+
+  .bwl-faq-wrapper ul.bwl-faq-tabs-ver li.active a {
+    border-bottom: 1px solid #eeeeee;
+  }
+}

@@ -1,0 +1,21 @@
+/*-- Option Panel Styles --*/
+
+.baf-option-panel {
+  clear: both;
+  h2 {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+
+    &:first-child {
+      border-bottom: 0px solid #333333;
+    }
+  }
+
+  select {
+    min-width: 260px;
+  }
+}
+
+.faq-wrapper table.form-table th {
+  font-size: 13px;
+}

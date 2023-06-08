@@ -1,0 +1,28 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/admin/styles/admin_rtl.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+#baf_save_sorting {
+  right: initial;
+  left: 0px;
+}
+
+.baf-sort-menu li {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+#bwl_faq_items .menu-item-handle {
+  padding: 3px 12px 3px 3px;
+}
+
+.baf-sc-hints ol {
+  margin-left: initital;
+  margin-right: 12px;
+}
+.baf-sc-hints ol li small {
+  margin-left: initital;
+  margin-right: -12px;
+}
+
+/*# sourceMappingURL=admin_rtl.css.map*/

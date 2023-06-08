@@ -1,0 +1,125 @@
+/*----- FAQ FORM----*/
+
+.bwl-form-success-box {
+  background: #8ad088;
+  color: #ffffff;
+}
+
+.bwl-form-wait-box {
+  background: #ffffc1;
+  color: #000000;
+}
+
+.bwl-form-error-box {
+  background: #e63f37;
+  color: #ffffff;
+}
+
+.bwl-faq-form-container {
+  margin: 12px 0;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0px;
+
+  h2 {
+    border-bottom: 1px solid #eeeeee;
+    font-size: 24px;
+  }
+
+  .bwl-faq-form-message-box {
+    width: 100%;
+    line-height: 2.4em;
+    display: none;
+    padding: 6px 12px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+
+    .baf_field {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 16px;
+      }
+    }
+
+    input[type="text"] {
+      width: 100%;
+      border: 1px solid $border-gray;
+      padding: 6px;
+    }
+
+    select {
+      background: $bg-white;
+      padding: 12px 6px;
+      border: 1px solid $border-gray;
+    }
+
+    .baf_field:nth-of-type(3) {
+      display: flex;
+      flex-direction: row;
+      gap: 12px 12px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .sum {
+      display: flex;
+      flex-basis: 42px;
+      border: 1px solid #cccccc;
+      background: $bg-gray;
+      color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+
+      &:focus {
+        border: 1px solid $border-gray;
+      }
+    }
+
+    .captcha {
+      display: flex;
+      flex-basis: 60px;
+      border: 1px solid $border-gray;
+      text-align: center;
+    }
+
+    #spambot {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    input[type="submit"] {
+      border: 1px solid #cccccc;
+      width: 160px;
+      padding: 8px 0px;
+      font-weight: bold;
+    }
+  }
+}
+
+// Responsive
+
+// Tablet.
+@media (min-width: 576px) {
+}
+
+// Tablet Horizontal screen
+@media (min-width: 768px) {
+}
+
+// Large screen
+@media (min-width: 1100px) {
+  .bwl-faq-form-container {
+    form {
+      select {
+        width: 60%;
+      }
+    }
+  }
+}

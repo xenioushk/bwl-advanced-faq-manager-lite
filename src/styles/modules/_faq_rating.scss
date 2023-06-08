@@ -1,0 +1,60 @@
+/*----- Rating Styles ----*/
+
+.ac-container hr.ultra-fancy-hr {
+  background-color: #ebebeb;
+  background-image: -webkit-linear-gradient(to left, #ffffff 0%, #ebebeb 50%, #ffffff 100%);
+  background-image: linear-gradient(to left, #ffffff 0%, #ebebeb 50%, #ffffff 100%);
+  border: none;
+  height: 1px;
+  width: 100%;
+}
+
+.post-like-container {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 8px;
+
+  &.liked {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px 0;
+  }
+
+  a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    @include transition(all, 0.3s);
+
+    .post-like {
+      color: #228aff;
+      font-size: 24px;
+    }
+
+    &:hover {
+      .post-like {
+        color: #333333;
+      }
+    }
+  }
+
+  .count {
+    text-align: left;
+  }
+}
+
+.post-like-status {
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+.post-like.alreadyvoted {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 24px;
+}

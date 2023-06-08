@@ -1,0 +1,103 @@
+// Tab
+div.bwl-faq-tab-content {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+  outline: none;
+}
+
+.bwl-faq-content-wrapper {
+  clear: both;
+  border: 1px solid #ccc;
+  margin: 0 0 11px 0;
+  padding: 0;
+}
+
+.bwl-faq-content-wrapper-ver {
+  float: left !important;
+  width: 80%;
+  border: 1px solid #ccc;
+  margin: 0px 0px !important;
+  padding: 0;
+  clear: none !important;
+}
+
+.bwl-faq-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs {
+  position: relative;
+  z-index: 50;
+  padding: 0px;
+  margin: 0px 0px -1px 0px;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs-ver {
+  position: relative;
+  z-index: 50;
+  padding: 0px;
+  margin: 0px 0px !important;
+  width: 20%;
+  float: left;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs li {
+  display: block;
+  background: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs-ver li {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs li a {
+  list-style: none;
+  display: block;
+  padding: 5px 11px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs-ver li a {
+  list-style: none;
+  display: block;
+  padding: 5px 11px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  background: #fff;
+  outline: none;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs li.active a {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  margin-bottom: -1px;
+  background: #fafafa;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs-ver li.active a {
+  border-left: 0px solid #ccc;
+  border-right: 0px solid #ccc;
+  margin-bottom: 1px;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs li.active {
+  border-top: 3px solid #2c2c2c;
+}
+
+.bwl-faq-wrapper ul.bwl-faq-tabs-ver li.active {
+  border-top: 0px solid #2c2c2c;
+  border-left: 3px solid #2c2c2c;
+}

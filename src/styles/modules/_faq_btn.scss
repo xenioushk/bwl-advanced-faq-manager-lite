@@ -1,0 +1,26 @@
+/*-----Expand & Collapse BTN ----*/
+
+.baf-ctrl-btn {
+  padding: 0;
+  margin: 0 0 16px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 6px;
+
+  .baf-expand-all,
+  .baf-collapsible-all {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    font-size: 10px;
+    font-weight: bold;
+    background: darken($bg-white, 3%);
+    border: 0px solid #eeeeee;
+    @include transition(all, 0.2s);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

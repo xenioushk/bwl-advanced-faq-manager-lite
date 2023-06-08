@@ -1,0 +1,136 @@
+/*-- Welcome & Addon Page --*/
+
+.baf-about-wrap {
+  clear: both;
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+  ul,
+  li,
+  p {
+    font-size: 14px;
+  }
+  a {
+    text-decoration: none;
+    &::hover {
+      color: #2c2c2c;
+    }
+  }
+}
+
+.developer-info {
+  font-size: 16px;
+}
+
+.welcome-hr {
+  border: 0px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.baf-about-wrap li {
+  border-bottom: 1px solid #cccccc;
+  width: 24%;
+  float: left;
+  border: 1px solid #ffffff;
+  margin-right: 12px;
+}
+
+.baf-about-wrap li:last-child {
+  border-bottom: 0px solid #ffffff;
+}
+
+.baf-about-wrap ul.features {
+  width: 100%;
+  clear: both;
+}
+
+.baf-about-wrap ul.features li {
+  width: 100%;
+  border: none;
+}
+
+.baf-about-wrap li p.addon-title {
+  background: #ffffff;
+  margin: 0 0 1px 0 !important;
+  text-align: center;
+  padding: 12px;
+}
+
+.baf-about-wrap li p.addon-status {
+  background: #ffffff;
+  margin: 1px 0 0 0 !important;
+  text-align: center;
+  padding: 12px;
+}
+
+.baf-about-wrap li p.addon-info {
+  text-align: left;
+  padding: 6px;
+  margin: 0;
+  clear: both;
+  background: #fcfcfc;
+}
+
+.baf-about-wrap li p.addon-info img {
+  border-radius: 10px 0;
+  display: inline-block;
+  margin-right: 7px;
+  margin-top: 3px;
+}
+
+.baf_addon_install {
+  font-size: 16px;
+  display: inline-block;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 2px 10px;
+  background: #ff003a;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.baf_addon_installed {
+  font-size: 16px;
+  display: inline-block;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 2px 10px;
+  background: #47b642;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.baf_addon_install a,
+.baf_addon_installed a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.baf-sc-hints {
+  clear: both;
+}
+
+.baf-sc-hints ol {
+  margin-left: 12px;
+}
+
+.baf-sc-hints ol li {
+  clear: both;
+}
+
+.baf-sc-hints ol li small {
+  background: #edf0f2;
+  padding: 4px 0px;
+  margin-left: -12px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.baf_doc_link,
+.baf_support_link {
+  color: green;
+  font-weight: bold;
+}

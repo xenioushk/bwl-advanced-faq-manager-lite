@@ -1,0 +1,36 @@
+/*-----Pagination ----*/
+
+#baf_page_navigation {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 6px 0;
+  a {
+    padding: 1px 7px;
+    border: 1px solid #cccccc;
+    margin: 2px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    display: inline-block;
+    background: #fff;
+    color: $text-color;
+    &.active_page {
+      font-weight: bold;
+      color: $text-color;
+    }
+    &.previous_link,
+    &.next_link {
+      padding: 1px 12px;
+      font-weight: bold;
+      background: $bg-white;
+    }
+  }
+
+  span.total_pages {
+    display: inline-block;
+    margin: 5px 0 0 0;
+    font-size: small;
+  }
+}

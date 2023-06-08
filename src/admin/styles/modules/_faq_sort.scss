@@ -1,0 +1,62 @@
+.faq-sort-container {
+  height: 550px;
+  width: 95%;
+  overflow-x: hidden;
+  border: 2px solid #b1b1b1;
+  padding: 6px 12px;
+  box-sizing: border-box;
+}
+
+#bwl_faq_items {
+  display: flex;
+  flex-direction: column;
+  gap: 3px 0px;
+
+  .menu-item-bar {
+    margin: 0px;
+  }
+
+  .menu-item-handle {
+    padding: 6px 3px 6px 12px;
+    max-width: 100%;
+  }
+}
+
+#sort-status {
+  clear: both;
+}
+#baf_save_sorting {
+  border-radius: 0px !important;
+}
+
+#baf_save_sorting {
+  position: fixed;
+  right: 0px;
+  top: 105px;
+}
+
+.baf-sort-menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 6px;
+  li {
+    flex-basis: 200px;
+    a {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 12px 0;
+    }
+    a.sort-selected {
+      background: #2c2c2c;
+      color: #fff;
+    }
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}

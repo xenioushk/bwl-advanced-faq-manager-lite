@@ -1,0 +1,233 @@
+/*-----Search Form Element ----*/
+
+.search_icon {
+  background-origin: content-box;
+  background: url(../images/search.png) no-repeat;
+  background-position: top 10px right 10px;
+  background-position-x: 99%;
+  background-position-y: 50%;
+  border: 1px solid #cccccc;
+}
+
+.accordion_search_input_box::-ms-clear {
+  display: none;
+}
+.search_load {
+  background-origin: content-box;
+  background: url(../images/loader.gif) no-repeat;
+  background-position: top 10px right 10px;
+  background-position-x: 99%;
+  background-position-y: 50%;
+}
+
+.ac-container .bwl-faq-search-panel input:focus {
+  background-color: #ffffff;
+  border: 1px solid #c6e1ec;
+  text-shadow: none;
+}
+
+.ac-container .bwl-faq-search-panel .bwl-filter-message {
+  clear: both;
+  font-size: 15px;
+  position: relative;
+  display: block;
+}
+
+form.bwl-faq-search-panel + div.bwl-faq-container {
+  margin-top: 24px;
+}
+
+i.highlight {
+  font-style: normal;
+  display: inline-block;
+}
+
+.baf_suggestion {
+  text-align: center;
+}
+
+.baf_suggestion_prefix {
+  font-size: 16px;
+}
+
+.ac-container fieldset {
+  border: 0px solid #ffffff;
+}
+
+.ac-container .bwl-faq-search-panel {
+  position: relative;
+}
+
+.ac-container .bwl-faq-search-panel span.baf-btn-clear {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  width: 30px;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.ac-container .bwl-faq-search-panel span.baf-btn-clear:after {
+  position: absolute;
+  content: "X";
+  display: inline-block;
+  top: 0;
+  left: 7px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #6a6a6a;
+  font-family: verdana;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+
+.ac-container .bwl-faq-search-panel span.baf-btn-clear:hover:after {
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+.ac-container .bwl-faq-search-panel span.baf-btn-clear:hover {
+  color: #2c2c2c;
+}
+
+.ac-container .bwl-faq-search-panel input {
+  background-color: #ffffff;
+  border: 1px solid #d1d1d1;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px;
+  -moz-box-shadow: 0px;
+  -o-box-shadow: 0px;
+  box-shadow: 0px;
+  height: 48px;
+  text-shadow: none;
+  width: 100%;
+  margin-bottom: 11px;
+  padding: 0 8px;
+  text-indent: 5px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.ac-container .bwl-faq-search-panel input:focus {
+  border: 1px solid #c1c1c1 !important;
+  outline: none;
+}
+
+/*--- Semi Rounded Search Box ----*/
+
+.ac-container .bwl-faq-search-panel input.semi-rounded {
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  border-radius: 6px !important;
+  height: 48px !important;
+  padding: 0px 8px !important;
+  background-position-x: 98% !important;
+}
+
+.ac-container .bwl-faq-search-panel input.semi-rounded + span.baf-btn-clear {
+  right: 14px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  top: 5px;
+}
+
+/*---Rounded Search Box ----*/
+
+.ac-container .bwl-faq-search-panel input.rounded {
+  -webkit-border-radius: 32px !important;
+  -moz-border-radius: 32px !important;
+  border-radius: 32px !important;
+  height: 48px !important;
+  padding: 0px 8px !important;
+  background-position-x: 98% !important;
+}
+
+.ac-container .bwl-faq-search-panel input.rounded + span.baf-btn-clear {
+  right: 6px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  top: 5px;
+}
+
+/*---Box Shadow ----*/
+
+.sbox-custom-box-shadow {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-box-shadow: 0 0px 7px 7px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 0px 7px 7px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0px 7px 7px rgba(0, 0, 0, 0.03);
+}
+.sbox-custom-box-shadow:focus {
+  -webkit-box-shadow: 0 0px 7px 10px rgba(0, 0, 0, 0.03);
+  -moz-box-shadow: 0 0px 7px 10px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0px 7px 10px rgba(0, 0, 0, 0.03);
+  outline: none;
+}
+
+/*---Sbox Layout ----*/
+
+.closed-label,
+.opened-label {
+  position: relative;
+}
+
+.opened-label:after,
+.closed-label:after {
+  font-family: "FontAwesome";
+  content: "\f107";
+  background: transparent;
+  display: inline-block;
+  font-size: 20px !important;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  position: absolute;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+  /*background: blue;*/
+  text-align: center;
+  vertical-align: middle;
+  top: 50%;
+  right: 0;
+  margin-top: 6px;
+  line-height: 24px;
+}
+
+.opened-label:after {
+  -webkit-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+  top: 3px !important;
+  right: 6px !important;
+  line-height: 16px;
+}
+.closed-label:after {
+  -webkit-transform: rotateZ(-180deg);
+  transform: rotateZ(-180deg);
+  top: 6px !important;
+  right: 6px !important;
+}

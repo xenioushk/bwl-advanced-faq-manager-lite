@@ -59,7 +59,7 @@
           answers: answers.length,
           errorMsg: "Questions and Answers are not the same lengths",
         })
-        console.log(script.outerHTML)
+        // console.log(script.outerHTML)
       }
     }
   }

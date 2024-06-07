@@ -1,0 +1,84 @@
+span.baf-new-tag {
+  background: #fff;
+  color: green;
+  border-radius: 4px;
+  position: relative;
+  margin-left: 6px;
+  padding: 0 4px;
+  font-size: 10px;
+  font-weight: bold;
+  top: -5px;
+}
+
+.more-addon {
+  display: flex;
+  vertical-align: top;
+}
+
+// baf-addon-page-wrap
+
+.baf-addon-page-wrap {
+  background: inherit;
+  h2:first-child {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 12px;
+  }
+  .baf-addon-list {
+    font-weight: 400;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    &__card {
+      padding: 12px;
+      background: #fff;
+      border-radius: 3px;
+      flex-basis: 400px;
+      text-align: center;
+      border: 1px solid #c9c9c9;
+
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        .version {
+          display: inline-block;
+          padding: 0 12px;
+          color: #fff;
+          background: #333;
+          margin: 0 6px;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+      }
+
+      .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 0 12px;
+        border-top: 1px solid #c9c9c9;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+
+      .btn {
+        padding: 8px 12px;
+        text-decoration: none;
+        border-radius: 4px;
+        color: #333;
+
+        &--download {
+          background: yellowgreen;
+        }
+
+        &--documentation {
+          background: lightskyblue;
+        }
+      }
+    }
+  }
+}

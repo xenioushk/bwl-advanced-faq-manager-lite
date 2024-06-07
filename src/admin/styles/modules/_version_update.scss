@@ -15,7 +15,17 @@ h3.title {
   font-weight: bold;
   color: #ffffff;
   -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
 }
+
+.upgrade-pro {
+  padding: 24px 0;
+
+  &--center {
+    text-align: center;
+  }
+}
+
+// .baf-upgrade-pro {
+//   display: flex;
+// }

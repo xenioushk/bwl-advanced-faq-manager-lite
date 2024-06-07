@@ -86,7 +86,7 @@ if (typeof Object.create !== "function") {
           setTimeout(function () {
             self.baf_btn_clear.removeClass("baf_dn")
             self.faq_search(1)
-          }, 200)
+          }, 600)
       })
 
       // Clear Field.
@@ -237,16 +237,54 @@ if (typeof Object.create !== "function") {
 
       if (count === 0) {
         self.faq_search_result_container.html($noting_found_text).css("margin-bottom", "10px")
+        self.bafTrackSearchKeywords(filter, 0)
       } else {
         if (filter === "") {
           self.faq_search_result_container.html("").css("margin-bottom", "0px")
         } else {
           var count_string = count > 1 ? count + " " + $plural_faq : count + " " + $singular_faq
           self.faq_search_result_container.html($found_text + " " + count_string).css("margin-bottom", "10px")
+          self.bafTrackSearchKeywords(filter, count)
         }
       }
 
       self.section_container.find("input[type=text]").removeClass("search_load").addClass("search_icon")
+    },
+
+    getBafPageId: function () {
+      var page_id = ""
+      var $pageClasses = $("body").attr("class").split(/\s+/)
+
+      $.each($pageClasses, function (index, item) {
+        if (item.indexOf("page-id") >= 0) {
+          page_id = item
+          return false
+        }
+      })
+
+      return page_id
+    },
+
+    handleBafTrackSearchKeyWords: function (keywords, count) {
+      return $.ajax({
+        url: BafFrontendData.ajaxurl,
+        type: "POST",
+        data: {
+          action: "baf_track_search_keywords", // action will be the function name
+          keywords,
+          count,
+          pageId: this.getBafPageId().replace("page-id-", ""),
+        },
+      })
+    },
+
+    bafTrackSearchKeywords: function (keywords, count) {
+      // console.log(keywords)
+      // console.log(count)
+
+      $.when(this.handleBafTrackSearchKeyWords(keywords, count)).done(function (data) {
+        // console.log(data)
+      })
     },
 
     baf_get_pagination_html: function ($baf_section, show_per_page, number_of_items, baf_search) {
@@ -317,7 +355,7 @@ if (typeof Object.create !== "function") {
         baf_pages_string = string_plural_page
       }
 
-      navigation_html += '<a class="next_link" href="#">&raquo;</a><br /><span class="total_pages">' + string_total + " " + number_of_pages + " " + baf_pages_string + "</span>"
+      navigation_html += '<a class="next_link" href="#">&raquo;</a><br /><span class="total_pages">' + BafFrontendData.string_total + " " + number_of_pages + " " + baf_pages_string + "</span>"
 
       $baf_section.find("#baf_page_navigation").html("").html(navigation_html)
 

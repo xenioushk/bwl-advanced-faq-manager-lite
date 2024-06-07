@@ -4,7 +4,7 @@
   background-origin: content-box;
   background: url(../images/search.png) no-repeat;
   background-position: top 10px right 10px;
-  background-position-x: 99%;
+  background-position-x: 98%;
   background-position-y: 50%;
   border: 1px solid #cccccc;
 }
@@ -16,7 +16,7 @@
   background-origin: content-box;
   background: url(../images/loader.gif) no-repeat;
   background-position: top 10px right 10px;
-  background-position-x: 99%;
+  background-position-x: 98%;
   background-position-y: 50%;
 }
 
@@ -196,11 +196,11 @@ i.highlight {
 
 .opened-label:after,
 .closed-label:after {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
   content: "\f107";
   background: transparent;
   display: inline-block;
-  font-size: 20px !important;
   width: 24px;
   height: 24px;
   text-align: center;
@@ -209,7 +209,6 @@ i.highlight {
   transition: all 0.3s ease-in-out;
   -webkit-transform: rotateZ(0deg);
   transform: rotateZ(0deg);
-  /*background: blue;*/
   text-align: center;
   vertical-align: middle;
   top: 50%;
@@ -228,6 +227,7 @@ i.highlight {
 .closed-label:after {
   -webkit-transform: rotateZ(-180deg);
   transform: rotateZ(-180deg);
-  top: 6px !important;
-  right: 6px !important;
+  top: 50% !important;
+  right: 10px !important;
+  margin-top: -10px;
 }

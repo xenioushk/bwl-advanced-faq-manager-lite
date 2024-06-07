@@ -1,23 +1,24 @@
 .faq-sort-container {
   height: 550px;
-  width: 95%;
   overflow-x: hidden;
   border: 2px solid #b1b1b1;
   padding: 6px 12px;
   box-sizing: border-box;
+  background: #fff;
+  border-radius: 4px;
 }
 
 #bwl_faq_items {
   display: flex;
   flex-direction: column;
-  gap: 3px 0px;
+  gap: 8px;
 
   .menu-item-bar {
     margin: 0px;
   }
 
   .menu-item-handle {
-    padding: 6px 3px 6px 12px;
+    padding: 8px;
     max-width: 100%;
   }
 }
@@ -33,6 +34,12 @@
   position: fixed;
   right: 0px;
   top: 105px;
+  width: 96px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .baf-sort-menu {
@@ -48,11 +55,12 @@
       text-decoration: none;
       text-align: center;
       background: #fff;
-      border: 1px solid #ccc;
+      border: 2px solid #ccc;
       padding: 12px 0;
+      border-radius: 4px;
     }
     a.sort-selected {
-      background: #2c2c2c;
+      background: #2271b1;
       color: #fff;
     }
     &:last-child {

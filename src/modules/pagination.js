@@ -158,7 +158,7 @@
              - links to specific pages
              - link to next page
              */
-      var navigation_html = '<div class="baf_page_num"><a class="previous_link" href="#">&laquo;</a>'
+      var navigation_html = '<div class="baf_page_num"><a class="previous_link" href="#"><i class="fa fa-chevron-left"></i></a>'
       var current_link = 0
 
       var page_array = []
@@ -180,7 +180,7 @@
         baf_pages_string = string_plural_page
       }
 
-      navigation_html += '<a class="next_link" href="#">&raquo;</a></div><div class="total_pages">' + string_total + " " + number_of_pages + " " + baf_pages_string + "</div>"
+      navigation_html += '<a class="next_link" href="#"><i class="fa fa-chevron-right"></i></a></div><div class="total_pages">' + BafFrontendData.string_total + " " + number_of_pages + " " + baf_pages_string + "</div>"
 
       $baf_section.find("#baf_page_navigation").html("").html(navigation_html)
 
@@ -612,6 +612,7 @@
                 }
                 $faq_search_result_container.html($noting_found_text).css("margin-bottom", "10px")
                 baf_get_pagination_html($baf_section, $baf_item_per_page_val, baf_total_items, 1)
+                bafTrackSearchKeywords(filter, 0)
               } else {
                 baf_total_items = count
                 var count_string = count > 1 ? count + " " + $plural_faq : count + " " + $singular_faq
@@ -623,11 +624,45 @@
                 $faq_search_result_container.html($found_text + " " + count_string).css("margin-bottom", "10px")
 
                 baf_get_pagination_html($baf_section, $baf_item_per_page_val, baf_total_items, 1)
+                bafTrackSearchKeywords(filter, baf_total_items)
               }
 
               $baf_btn_clear.removeClass("baf_dn")
-            }, 200)
+            }, 600)
         })
+
+        function getBafPageId() {
+          var page_id = ""
+          var $pageClasses = $("body").attr("class").split(/\s+/)
+
+          $.each($pageClasses, function (index, item) {
+            if (item.indexOf("page-id") >= 0) {
+              page_id = item
+              return false
+            }
+          })
+
+          return page_id
+        }
+
+        function handleBafTrackSearchKeyWords(keywords, count) {
+          return $.ajax({
+            url: BafFrontendData.ajaxurl,
+            type: "POST",
+            data: {
+              action: "baf_track_search_keywords", // action will be the function name
+              keywords,
+              count,
+              pageId: getBafPageId().replace("page-id-", ""),
+            },
+          })
+        }
+
+        function bafTrackSearchKeywords(keywords, count) {
+          $.when(handleBafTrackSearchKeyWords(keywords, count)).done(function (data) {
+            // console.log(data)
+          })
+        }
 
         /*----- SUGGESTION BOX ----*/
 

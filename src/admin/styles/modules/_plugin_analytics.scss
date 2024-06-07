@@ -1,0 +1,118 @@
+// baf-analytics-page-wrap
+
+.baf-analytics-page-wrap {
+  background: inherit;
+
+  h2:first-child {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 12px;
+  }
+
+  .baf-analytics-list {
+    font-weight: 400;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    &__card {
+      padding: 12px;
+      background: #fff;
+      border-radius: 4px;
+      flex-basis: 400px;
+      text-align: left;
+      border: 1px solid #c9c9c9;
+
+      &--medium {
+        flex-basis: 320px;
+      }
+
+      &--small {
+        flex-basis: 210px;
+      }
+
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 12px;
+        border-bottom: 1px solid #ececec;
+        padding-bottom: 12px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 0px 8px;
+
+        small {
+          font-size: 12px;
+          display: inline-block;
+          background: #1fb141;
+          color: #fff;
+          padding: 3px 6px;
+          border-radius: 6px;
+        }
+
+        .version {
+          display: inline-block;
+          padding: 0 12px;
+          color: #fff;
+          background: #333;
+          margin: 0 6px;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+      }
+
+      ul {
+        line-height: 16px;
+        &.with-count {
+          display: flex;
+          flex-direction: column;
+          gap: 0 12px;
+          li {
+            background: #fafaff;
+            padding: 6px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 600;
+            gap: 0 6px;
+
+            a {
+              text-decoration: none;
+            }
+            .count {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 0 12px;
+        border-top: 1px solid lightgray;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+
+      .btn {
+        padding: 8px 12px;
+        text-decoration: none;
+        border-radius: 4px;
+        color: #333;
+
+        &--download {
+          background: yellowgreen;
+        }
+
+        &--documentation {
+          background: lightskyblue;
+        }
+      }
+    }
+  }
+}

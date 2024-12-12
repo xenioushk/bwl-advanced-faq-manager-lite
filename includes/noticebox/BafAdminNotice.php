@@ -28,18 +28,18 @@ class BafAdminNotice
     // Classes: notice-success, notice-error, notice-warning. notice-info
     // display: 0, 1 [default: 1]
 
+    return [];
+    // $noticeLists = [
 
-    $noticeLists = [
+    //   [
+    //     'noticeClass' => 'notice-success is-dismissible',
+    //     'msg' => '<strong style="color:green;">Sale ends soon: 50% off Premium.</strong> Upgrade <a href="' . BWL_BAF_CC_URL . '" class="bwl_activation_link">BWL Advanced FAQ Manager</a> to pro version and <strong>unlock</strong> premium options, free addons, automatic update, official support, and many more.',
+    //     'key' => 'baf_upgrade_pro_status'
+    //   ]
 
-      [
-        'noticeClass' => 'notice-success is-dismissible',
-        'msg' => '<strong style="color:green;">Sale ends soon: 50% off Premium.</strong> Upgrade <a href="' . BWL_BAF_CC_URL . '" class="bwl_activation_link">BWL Advanced FAQ Manager</a> to pro version and <strong>unlock</strong> premium options, free addons, automatic update, official support, and many more.',
-        'key' => 'baf_upgrade_pro_status'
-      ]
+    // ];
 
-    ];
-
-    return $noticeLists;
+    // return $noticeLists;
   }
 
   public function pluginVerficationNotice()

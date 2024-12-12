@@ -5,7 +5,7 @@
  * Plugin URI: https://bluewindlab.net
  * Description: A WordPress plugin designed for managing frequently asked questions. With this plugin, you can effortlessly create an unlimited number of FAQ items and seamlessly display them on the front end of your website.
  * Author: Mahbub Alam Khan
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author URI: https://bluewindlab.net
  * WP Requires at least: 6.0
  * Text Domain: bwl-adv-faq
@@ -17,7 +17,7 @@ if (!class_exists('BWL_Advanced_Faq_Manager')) {
     {
         function __construct()
         {
-            define("BWL_BAF_PLUGIN_VERSION", '1.1.0');
+            define("BWL_BAF_PLUGIN_VERSION", '1.1.1');
             define("BWL_BAF_PLUGIN_UPDATER_SLUG", plugin_basename(__FILE__));
             define("BWL_BAF_PLUGIN_PATH", __DIR__);
             define('BWL_BAF_INSTALLATION_TAG', 'baf_installation_' . str_replace('.', '_', BWL_BAF_PLUGIN_VERSION));

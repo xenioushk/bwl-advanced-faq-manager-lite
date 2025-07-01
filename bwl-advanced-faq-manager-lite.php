@@ -3,7 +3,7 @@
 /**
  * Plugin Name: BWL Advanced FAQ Manager Lite
  * Plugin URI: https://bluewindlab.net
- * Description: A WordPress plugin designed for managing frequently asked questions. With this plugin, you can effortlessly create an unlimited number of FAQ items and seamlessly display them on the front end of your website.
+ * Description: You can effortlessly create an unlimited number of FAQ items and seamlessly display them on the front end of your website.
  * Author: Mahbub Alam Khan
  * Version: 1.1.1
  * Author URI: https://bluewindlab.net

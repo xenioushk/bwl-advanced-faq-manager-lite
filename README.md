@@ -15,8 +15,6 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 [Live Demo](https://projects.bluewindlab.net/wpplugin/baf_landing) | [Video Tutorials](https://www.youtube.com/watch?v=tU7iOR5rRkc&list=PLxYTuQlgnCLqE7618FUZ1lrFJWTo3oRLi) | [User Guide](https://projects.bluewindlab.net/wpplugin/baf/doc/) | [Pro Version](https://1.envato.market/baf-wp)
 
-**Try it out on your free dummy site: Click here => [https://tastewp.com/plugins/bwl-advanced-faq-manager-lite](https://tastewp.com/new?pre-installed-plugin-slug=bwl-advanced-faq-manager-lite&redirect=wp-admin/edit.php?post_type=bwl_advanced_faq&ni=true)**.
-
 <p>Create a helpful and functional faq page within 5 minutes with the BWL Advanced FAQ Manager plugin. Advanced faq manager plugin comes with almost zero configuration requirement specialty. So, you do not need to worry about doing any custom and complicated configuration to use this plugin. Just upload and install the plugin, and you are ready to go.</p>
 
 <p>The Plugin has a built-in Shortcode generator integrated with TinyMCE editor. Also, it works fine within the Gutenburg editor. That provides you the option to insert shortcodes quickly and display the FAQ items inside any pages, posts as well as website widget areas.</p>

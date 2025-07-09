@@ -1,33 +1,37 @@
-# Copyright (C) 2024 Mahbub Alam Khan
+# Copyright (C) 2025 Mahbub Alam Khan
 # This file is distributed under the same license as the BWL Advanced FAQ Manager Lite plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: BWL Advanced FAQ Manager Lite 1.1.0\n"
+"Project-Id-Version: BWL Advanced FAQ Manager Lite 1.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bwl-advanced-faq-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-12T17:21:37+00:00\n"
+"POT-Creation-Date: 2025-07-09T09:22:29+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: bwl-adv-faq\n"
 
 #. Plugin Name of the plugin
+#: bwl-advanced-faq-manager-lite.php
 msgid "BWL Advanced FAQ Manager Lite"
 msgstr ""
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
+#: bwl-advanced-faq-manager-lite.php
 msgid "https://bluewindlab.net"
 msgstr ""
 
 #. Description of the plugin
-msgid "A WordPress plugin designed for managing frequently asked questions. With this plugin, you can effortlessly create an unlimited number of FAQ items and seamlessly display them on the front end of your website."
+#: bwl-advanced-faq-manager-lite.php
+msgid "You can effortlessly create an unlimited number of FAQ items and seamlessly display them on the front end of your website."
 msgstr ""
 
 #. Author of the plugin
+#: bwl-advanced-faq-manager-lite.php
 msgid "Mahbub Alam Khan"
 msgstr ""
 
@@ -135,49 +139,49 @@ msgstr ""
 
 #: includes/BafHelpers.php:172
 #: includes/baf_rating.php:11
-#: includes/bwl_advanced_faq_manager_rating.php:11
+#: includes/bwl_advanced_faq_manager_rating.php:10
 msgid "Select FAQ Category!"
 msgstr ""
 
 #: includes/BafHelpers.php:173
 #: includes/baf_rating.php:12
-#: includes/bwl_advanced_faq_manager_rating.php:12
+#: includes/bwl_advanced_faq_manager_rating.php:11
 msgid " Incorrect Captcha Value!"
 msgstr ""
 
 #: includes/BafHelpers.php:174
 #: includes/baf_rating.php:13
-#: includes/bwl_advanced_faq_manager_rating.php:13
+#: includes/bwl_advanced_faq_manager_rating.php:12
 msgid "Total"
 msgstr ""
 
 #: includes/BafHelpers.php:175
 #: includes/baf_rating.php:14
-#: includes/bwl_advanced_faq_manager_rating.php:14
+#: includes/bwl_advanced_faq_manager_rating.php:13
 msgid "Page !"
 msgstr ""
 
 #: includes/BafHelpers.php:176
 #: includes/baf_rating.php:15
-#: includes/bwl_advanced_faq_manager_rating.php:15
+#: includes/bwl_advanced_faq_manager_rating.php:14
 msgid "Pages !"
 msgstr ""
 
 #: includes/BafHelpers.php:177
 #: includes/baf_rating.php:16
-#: includes/bwl_advanced_faq_manager_rating.php:16
+#: includes/bwl_advanced_faq_manager_rating.php:15
 msgid "Please Wait ....."
 msgstr ""
 
 #: includes/BafHelpers.php:178
 #: includes/baf_rating.php:17
-#: includes/bwl_advanced_faq_manager_rating.php:17
+#: includes/bwl_advanced_faq_manager_rating.php:16
 msgid "Question successfully added for review!"
 msgstr ""
 
 #: includes/BafHelpers.php:179
 #: includes/baf_rating.php:18
-#: includes/bwl_advanced_faq_manager_rating.php:18
+#: includes/bwl_advanced_faq_manager_rating.php:17
 msgid "Unable to add faq. Please try again!"
 msgstr ""
 
@@ -206,32 +210,32 @@ msgid "FAQs !"
 msgstr ""
 
 #: includes/baf_rating.php:87
-#: includes/bwl_advanced_faq_manager_rating.php:89
+#: includes/bwl_advanced_faq_manager_rating.php:87
 msgid "Please Wait ..."
 msgstr ""
 
 #: includes/baf_rating.php:98
-#: includes/bwl_advanced_faq_manager_rating.php:100
+#: includes/bwl_advanced_faq_manager_rating.php:98
 msgid "You have already liked it!"
 msgstr ""
 
 #: includes/baf_rating.php:112
-#: includes/bwl_advanced_faq_manager_rating.php:113
+#: includes/bwl_advanced_faq_manager_rating.php:110
 msgid "people found this faq useful."
 msgstr ""
 
 #: includes/baf_rating.php:115
-#: includes/bwl_advanced_faq_manager_rating.php:117
+#: includes/bwl_advanced_faq_manager_rating.php:114
 msgid "Be the first person to like this faq."
 msgstr ""
 
 #: includes/baf_rating.php:130
-#: includes/bwl_advanced_faq_manager_rating.php:129
+#: includes/bwl_advanced_faq_manager_rating.php:126
 msgid " Thank For Your Rating!"
 msgstr ""
 
 #: includes/baf_rating.php:131
-#: includes/bwl_advanced_faq_manager_rating.php:130
+#: includes/bwl_advanced_faq_manager_rating.php:127
 msgid " You have already give rating!"
 msgstr ""
 

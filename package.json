@@ -1,6 +1,6 @@
 {
   "name": "bwl-advanced-faq-manager-lite",
-  "version": "1.0.8",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "dev": "wp-scripts start",
     "start:hot": "wp-scripts start --hot",
     "make-pot": "wp i18n make-pot . lang/bwl-advanced-faq-manager.pot --slug=bwl-advanced-faq-manager --domain=bwl-adv-faq --exclude=node_modules,src",
-    "make-json": "wp i18n make-json languages/ --no-purge",
+    "make-json": "wp i18n make-json lang/ --no-purge",
     "lint:php": "vendor/bin/phpcs",
     "lint:php:fix": "vendor/bin/phpcbf"
   },

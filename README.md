@@ -3,8 +3,8 @@
 **Contributors:** xenioushk  
 **Tags:** faq, faq search, accordion, faq accordion  
 **Requires at least:** 6.0  
-**Tested up to:** 6.7.1  
-**Stable tag:** 1.1.1  
+**Tested up to:** 6.9.4
+**Stable tag:** 1.1.2  
 **Requires PHP:** 8.0  
 **License:** GPLv2 or later  
 **License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -131,6 +131,10 @@ It's very simple. Follow these steps:
 
 ## Changelog
 
+### 1.1.2
+
+- Checked and fixed compatibility issues for the latest WordPress version.
+
 ### 1.1.1
 
 - Checked and fixed compatibility issues for the latest WordPress version.
@@ -186,6 +190,10 @@ It's very simple. Follow these steps:
 ---
 
 ## Upgrade Notice
+
+### 1.1.2
+
+- Replace all files and directories in your `plugins/bwl-advanced-faq-manager-lite` folder.
 
 ### 1.1.1
 

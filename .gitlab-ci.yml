@@ -46,7 +46,7 @@ production:
   tags: [ci, devops]
   script:
     - echo "🚀 Deploying to PRODUCTION."
-    - rsync -avz --delete --exclude-from='.rsync-exclude' -e "ssh -p ${SSH_PORT:-65002}" $BUILD_DIR/ $SSH_PUSERNAME@$SSH_PHOST:$PDEPLOY_DIR
+    - rsync -avz --exclude-from='.rsync-exclude' -e "ssh -p ${SSH_PORT:-65002}" $BUILD_DIR/ $SSH_PUSERNAME@$SSH_PHOST:$PDEPLOY_DIR
 
 cleanup:
   stage: cleanup

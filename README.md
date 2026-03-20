@@ -133,6 +133,7 @@ It's very simple. Follow these steps:
 
 ### 1.1.2
 
+- Update shortcodes to fix Cross-Site Scripting issue.
 - Checked and fixed compatibility issues for the latest WordPress version.
 
 ### 1.1.1

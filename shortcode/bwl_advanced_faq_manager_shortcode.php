@@ -62,15 +62,15 @@ function baf_sbox($atts) {
 
     $baf_suggestion_string = get_baf_suggestion_string($atts);
 
-    $bwla_search_form_class = (isset($cont_ext_class) && $cont_ext_class != "" ) ? 'bwl-faq-search-panel ' . $cont_ext_class : 'bwl-faq-search-panel';
+    $bwla_search_form_class = (isset($cont_ext_class) && $cont_ext_class != "" ) ? 'bwl-faq-search-panel ' . esc_attr($cont_ext_class) : 'bwl-faq-search-panel';
 
     // Added in version 1.7.1
 
-    $baf_sbox_output = '<form id="live-search" action="" class="' . $bwla_search_form_class . '" method="post" data-form_id="' . $unique_faq_container_id . '" data-paginate="' . 0 . '" data-search_only_title="' . $search_only_title . '" data-pag_limit="' . $pag_limit . '" >
+    $baf_sbox_output = '<form id="live-search" action="" class="' . esc_attr($bwla_search_form_class) . '" method="post" data-form_id="' . esc_attr($unique_faq_container_id) . '" data-paginate="' . 0 . '" data-search_only_title="' . esc_attr($search_only_title) . '" data-pag_limit="' . esc_attr($pag_limit) . '" >
                         <fieldset>
-                            <input type="text" class="search_icon text-input ' . $sbox_class . '" id="bwl_filter_' . $unique_faq_container_id . '" value="" placeholder="' . $placeholder . '" data-highlight_color="' . $highlight_color . '" data-highlight_bg="' . $highlight_bg . '" />
+                            <input type="text" class="search_icon text-input ' . esc_attr($sbox_class) . '" id="bwl_filter_' . esc_attr($unique_faq_container_id) . '" value="" placeholder="' . esc_attr($placeholder) . '" data-highlight_color="' . esc_attr($highlight_color) . '" data-highlight_bg="' . esc_attr($highlight_bg) . '" />
                                 <span class="baf-btn-clear baf_dn"></span>
-                                <span id="bwl-filter-message-' . $unique_faq_container_id . '" class="bwl-filter-message"></span>
+                                <span id="bwl-filter-message-' . esc_attr($unique_faq_container_id) . '" class="bwl-filter-message"></span>
                         </fieldset>
                         ' . $baf_suggestion_string . '
                     </form>';
